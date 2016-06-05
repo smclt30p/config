@@ -88,3 +88,7 @@ alias pas="pacman -Ss $1"
 alias lst="ls -lat"
 alias snano="sudo nano $1"
 #alias shit="sudo !!"
+
+eval "$(thefuck --alias)"
+# You can use whatever you want as an alias, like for Mondays:
+eval "$(thefuck --alias FUCK)"
